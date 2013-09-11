@@ -1,0 +1,182 @@
+/** Style **/
+
+html { 
+	background:url(../images/bg_2.png) #FFFFFF;  
+	overflow:hidden;
+} 
+
+body {
+	background:url(../images/bg.png); 
+
+}
+footer { 
+	position:absolute; 
+	bottom:0; 
+} 
+
+/** Clouds **/
+
+.clouds	{ 
+	width:100%; 
+	height:262px; 
+	overflow:hidden; 
+} 
+
+#clouds-small { 
+	width:3000px; 
+	height:100%; 
+	background:url(../images/bg-clouds-small.png) repeat-x; 
+} 
+
+#cloud2	{ 
+	position:relative; 
+	top:-262px; 
+} 
+
+#clouds-big	{ 
+	width:4000px; 
+	height:100%; 
+	background:url(../images/bg-clouds-big.png) repeat-x; 
+} 
+
+/** Header **/
+
+h1#logo	{ 
+	background:url(../images/Logo.png) top left no-repeat; 
+	height:100px; 
+	width:150px; 
+	position:absolute; 
+	top:15px; 
+	left:15px; 
+} 
+
+#menu { 
+	float:right; 
+	position:absolute; 
+	top:30px; 
+	right:15px; 
+	z-index:10; 
+} 
+
+#menu-1 a { 
+	background:url(../images/button.png) no-repeat  top center; 
+	padding:20px; 
+	margin-right:10px; 
+} 
+
+#menu-1 a:hover { 
+	background:url(../images/button_.png) no-repeat top center; 
+	text-decoration:none; 
+	padding:20px; 
+	margin-right:10px; 
+} 
+
+#menu-2 a { 
+	background:url(../images/button1.png) no-repeat top center; 
+	padding:20px; 
+	margin-right:10px; 
+} 
+
+#menu-2 a:hover { 
+	background:url(../images/button1_.png) no-repeat top center; 
+	padding:20px; 
+	margin-right:10px; 
+} 
+
+#menu-3 a { 
+	background:url(../images/button2.png) no-repeat top center; 
+	padding:20px; 
+	margin-right:10px; 
+} 
+
+#menu-3 a:hover { 
+	background:url(../images/button2_.png) no-repeat top center; 
+	padding:20px; 
+	margin-right:10px; 
+} 
+
+#menu-4 a { 
+	background:url(../images/button3.png) no-repeat top center; 
+	padding:20px; 
+	margin-right:10px; 
+} 
+
+#menu-4 a:hover { 
+	background:url(../images/button3_.png) no-repeat top center; 
+	padding:20px; 
+	margin-right:10px; 
+} 
+	
+#menu li { 
+	float:left; 
+} 
+
+/** Body Content **/
+
+#wrapper { 
+	width:100%; 
+	height:100%; 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	overflow:hidden; 
+}
+
+#mask { 
+	width:400%; 
+	height:100%; 
+} 
+
+.box { 
+	width:25%; 
+	height:100%; 
+	float:left; 
+} 
+
+.content { 
+	width:960px; 
+	height:400px; 
+	top:0px; 
+	margin: 0 auto; 
+	position:relative;  
+} 
+				
+.inner1 { 
+	width:920px; 
+	height:560px; 
+	background:url(../images/iam.png) top center; 
+
+	padding:22px; 
+	top:0px; 
+	position:absolute; 
+}
+
+.inner2 { 
+	width:920px; 
+	height:560px; 
+	background:url(../images/iwas.png) top center; 
+
+	padding:22px; 
+	top:0px; 
+	position:absolute; 
+}
+
+.inner3 { 
+	width:920px; 
+	height:560px; 
+	background:url(../images/ilove.png) top center;
+
+	padding:22px; 
+	top:0px; 
+	position:absolute; 
+}
+
+.inner4 { 
+	width:920px; 
+	height:560px; 
+	background:url(../images/iwill.png) top center; 
+
+	padding:22px; 
+	top:0px; 
+	position:absolute; 
+}
