@@ -1,0 +1,177 @@
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #342d61;
+    margin:0;
+}
+
+#img {
+	position:relative;
+	margin-left:auto; 
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.0em;
+	color:#fcb283;
+   	text-align: center;
+}
+
+#wrap {
+	width: 100%;	
+	height: auto;
+	float: none;
+	padding: 0;
+}
+
+#pink, #yellow, #purple, #green {
+	width: 25%;
+	margin: 0;
+	overflow: visible;
+	/* height: 800px; */
+}
+
+#pink, #yellow, #purple, #green {
+	float: left;
+}
+
+#pink {
+	background: #ef5d8a;
+	margin: 0;
+}
+
+#yellow {
+	background: #fef2a6;
+}
+
+#purple {
+	background: #aa53b4;
+}
+
+#green {
+	background: #2cdcd1;
+}
+
+#textbox {
+	padding: 10%;	
+}
+
+p{
+	font-size: 1.5em;
+	color:#fcb283;
+}
+
+
+@media screen and (max-width: 1024px) {
+      
+      section#pink {
+			width: 33.333%;
+			padding: 0;
+			/* height: 800px; */
+      }
+      
+      section#green {
+			width: 100%;
+			/* height: auto; */
+      }
+      
+      section#yellow {
+			width: 33.333%;
+			/* height: 800px; */
+      }
+      
+      section#purple {
+			width: 33.333%;
+			/* height: 800px; */
+      }
+		
+		#title {
+		float: none;
+		}
+		
+		#textbox {
+		position: relative; 
+   		width: 100%;
+		padding: 6%;
+		}
+
+}
+
+
+@media screen and (max-width: 760px) {
+      
+      
+      section#pink {
+			width: 50%;
+      }
+      
+    
+      section#yellow {
+			width: 50%;
+      }
+      
+      section#purple {
+			width: 50%;
+      }
+      
+      section#green {
+			width: 50%;
+      }
+      
+      #textbox {
+			padding: 10%;
+		}
+     
+     h1{
+     	font-size: 1.7em;
+      	text-align: center;
+      }
+}
+
+
+@media screen and (max-width: 480px){
+      
+      section#pink, section#green, section#yellow, section#purple {
+      	height: auto;
+      }
+      
+      section#pink {
+			width: 100%;
+			float: none;
+      }
+      
+      section#green {
+			width: 100%;
+			float: none;
+      }
+      
+      section#yellow {
+			width: 100%;
+			float: none;
+      }
+      
+      section#purple {
+			width: 100%;
+			float: none;
+      }
+      
+      h1{
+      	font-size: 1.5em;
+      	text-align: center;
+      }
+      
+      #img {
+		position:relative;
+		margin-left:auto; 
+	  }
+		
+	  #textbox {
+		padding: 20%;
+	  }
+		
+	  p {
+		font-size: 1.3em;
+		margin: 20;
+	  }	
+}
