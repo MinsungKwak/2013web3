@@ -351,7 +351,7 @@ p {
 			z-index:1;
 	  }
 	  
-	   #bobble2 img {
+	  #bobble2 img {
 			width: 40%;
 			position:absolute;
 			margin-left: 170px;
@@ -360,15 +360,15 @@ p {
 	  }
 	  
 	  
-	   #bobble2 :hover {
+      #bobble2 :hover {
  			position:absolute;
  			background:url(../images/2.png);
  			background-position:50%;
 			z-index:10;
-	   }
+	  }
 
 	  
-	   #bobble3 img {
+	  #bobble3 img {
 			width: 40%;
 			position:absolute;
 			margin-left: 170px;
@@ -384,7 +384,7 @@ p {
 	  }
 
 	  
-	   #bobble4 img {
+	  #bobble4 img {
 			width: 40%;
 			position:absolute;
 			margin-left: 170px;
