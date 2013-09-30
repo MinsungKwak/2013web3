@@ -72,7 +72,7 @@ h1 {
 	margin-top: 55px;
 }
 
-#bobble1 img  {
+#bubble1 img  {
 	width: 12%;
 	position:absolute;
 	margin-left: 135px;
@@ -80,7 +80,7 @@ h1 {
 	z-index:0;
 }
 
-#bobble1 :hover {
+#bubble1 :hover {
 	position:absolute;
  	background:url(../images/1.png);
  	background-position:50%;
@@ -97,7 +97,7 @@ h1 {
 	margin-top: 80px;
 }
 
-#bobble2 img {
+#bubble2 img {
 	width: 12%;
 	position:absolute;
 	margin-left: 135px;
@@ -105,7 +105,7 @@ h1 {
 	z-index:1;
 }
 
-#bobble2 :hover {
+#bubble2 :hover {
  	position:absolute;
  	background:url(../images/2.png);
  	background-position:47%;
@@ -122,7 +122,7 @@ h1 {
 	margin-top: 65px;
 }
 
-#bobble3 img {
+#bubble3 img {
 	width: 12%;
 	position:absolute;
 	margin-left: 135px;
@@ -130,7 +130,7 @@ h1 {
 	z-index:1;
 }
 
-#bobble3 :hover {
+#bubble3 :hover {
  	position:absolute;
  	background:url(../images/3.png);
  	background-position:47%;
@@ -147,7 +147,7 @@ h1 {
 	margin-top: 75px;
 }
 
-#bobble4 img {
+#bubble4 img {
 	width: 12%;
 	position:absolute;
 	margin-left: 135px;
@@ -155,7 +155,7 @@ h1 {
 	z-index:1;
 }
 
-#bobble4 :hover {
+#bubble4 :hover {
  	position:absolute;
  	background:url(../images/4.png);
  	background-position:50%;
@@ -196,7 +196,7 @@ p {
 			width: 33.333%;
       }
 
-	  #bobble1 img {
+	  #bubble1 img {
 			width: 15%;
 			position:absolute;
 			margin-left: 135px;
@@ -204,7 +204,7 @@ p {
 			z-index:1;
 	  }
 	  
-	  #bobble2 img {
+	  #bubble2 img {
 			width: 15%;
 			position:absolute;
 			margin-left: 135px;
@@ -212,7 +212,7 @@ p {
 			z-index:1;
 	  }
 	  
-  	  #bobble3 img {
+  	  #bubble3 img {
 			width: 15%;
 			position:absolute;
 			margin-left: 135px;
@@ -220,7 +220,7 @@ p {
 			z-index:1;
       }
 
- 	  #bobble4 img {
+ 	  #bubble4 img {
 			width: 15%;
 			position:absolute;
 			margin-left: 135px;
@@ -263,7 +263,7 @@ p {
       		text-align: center;
       }
       
-      #bobble1 img {
+      #bubble1 img {
 			width: 20%;
 			position:absolute;
 			margin-left: 150px;
@@ -271,7 +271,7 @@ p {
 			z-index:1;
 	  }
 	  
-	  #bobble2 img {
+	  #bubble2 img {
 			width: 20%;
 			position:absolute;
 			margin-left: 150px;
@@ -279,7 +279,7 @@ p {
 			z-index:1;
 	  }
 	  
-	  #bobble3 img {
+	  #bubble3 img {
 			width: 20%;
 			position:absolute;
 			margin-left: 150px;
@@ -287,7 +287,7 @@ p {
 			z-index:1;
 	  }
 	  
-	  #bobble4 img {
+	  #bubble4 img {
 			width: 20%;
 			position:absolute;
 			margin-left: 150px;
@@ -343,7 +343,7 @@ p {
 			margin-left: 35px;
 	  }
 	  
-	  #bobble1 img {
+	  #bubble1 img {
 			width: 40%;
 			position:absolute;
 			margin-left: 170px;
@@ -351,7 +351,7 @@ p {
 			z-index:1;
 	  }
 	  
-	  #bobble2 img {
+	  #bubble2 img {
 			width: 40%;
 			position:absolute;
 			margin-left: 170px;
@@ -360,7 +360,7 @@ p {
 	  }
 	  
 	  
-      #bobble2 :hover {
+      #bubble2 :hover {
  			position:absolute;
  			background:url(../images/2.png);
  			background-position:50%;
@@ -368,7 +368,7 @@ p {
 	  }
 
 	  
-	  #bobble3 img {
+	  #bubble3 img {
 			width: 40%;
 			position:absolute;
 			margin-left: 170px;
@@ -376,7 +376,7 @@ p {
 			z-index:1;
 	  }
 	  
-	  #bobble3 :hover {
+	  #bubble3 :hover {
  			position:absolute;
  			background:url(../images/3.png);
  			background-position:49%;
@@ -384,7 +384,7 @@ p {
 	  }
 
 	  
-	  #bobble4 img {
+	  #bubble4 img {
 			width: 40%;
 			position:absolute;
 			margin-left: 170px;
